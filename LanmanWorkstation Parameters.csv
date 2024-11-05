@@ -1,0 +1,7 @@
+"RegistryPath","Path","Name","Kind","Value"
+HiveKeyLocalMachine,System\CurrentControlSet\Services\LanmanWorkstation\Parameters,EnablePlainTextPassword,DWord,"00000000"
+HiveKeyLocalMachine,System\CurrentControlSet\Services\LanmanWorkstation\Parameters,EnableSecuritySignature,DWord,"00000001"
+HiveKeyLocalMachine,System\CurrentControlSet\Services\LanmanWorkstation\Parameters,RequireSecuritySignature,DWord,"00000000"
+HiveKeyLocalMachine,System\CurrentControlSet\Services\LanmanWorkstation\Parameters,ServiceDll,ExpandString,C:\WINDOWS\System32\wkssvc.dll
+HiveKeyLocalMachine,System\CurrentControlSet\Services\LanmanWorkstation\Parameters,ServiceDllUnloadOnStop,DWord,"00000001"
+HiveKeyLocalMachine,System\CurrentControlSet\Services\LanmanWorkstation\Parameters,AuditSmb1Access,DWord,"00000000"
