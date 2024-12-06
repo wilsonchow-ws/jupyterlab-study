@@ -61,3 +61,9 @@ def sha1Hash(toHash):
         return messageDigest.hexdigest()
     except TypeError:
         raise "String to hash was not compatible"
+
+def split(str, pattern, limit=-1):
+    """ [... elided ] """
+    sc = SparkContext._active_spark_context
+    return Column(sc._jvm.functions.split(_to_java_column(str), pattern, limit))
+
